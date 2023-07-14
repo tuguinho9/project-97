@@ -1,0 +1,32 @@
+#title {
+    font-family: 'Oswald', sans-serif;
+}
+body {
+    text-align: center;
+    background-color: darkorchid;
+}
+#img1 {
+    width: 100px;
+}
+#img2 {
+    width: 70px;
+    margin-top: 30px;
+}
+.login-div {
+    background-color: coral;
+    float: none;
+    border-radius: 15px;
+}
+#botao {
+    margin-bottom: 30px;
+}
+#output {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: cyan;
+    width: 80%;
+    float: none;
+}
+#img22 {
+    width: 20px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"> </script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"> </script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+<body>
+    <div class="container">
+    <h1 id="title">Kwitter <img id="img1" src="img1.png"></h1>
+    <br>
+    <h3 id="bemvindo"></h4>
+    <input type="text" id="usuario" placeholder="Insira o nome da sala" class="form-control">
+    <br>
+    <button id="enviar" onclick="enviar()" class="btn btn-danger">Criar</button> 
+    <br>
+    <h4>Salas</h4>
+    <br>
+    <center>
+    <div id="output">
+    </div>
+</center>
+</div>
+<script src="KwitterRoom.js"></script>
+</body>
+</html>

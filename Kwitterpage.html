@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"> </script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"> </script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+<body>
+    <button id="logout" onclick="sair()" class="btn btn-danger glyphicon glyphcon-log-out">Logout</button>
+    <div class="container">
+    <h1 id="title">Kwitter <img id="img1" src="img1.png"></h1>
+    <br>
+    <br>
+    <center>
+    <div id="output"></div>
+</center>
+    <br>
+    <div>
+        <label id="chat">Enviar</label>
+        <br>
+        <br>
+        <input id="texto" type="text" placeholder="Insira sua mensagem" class="form-control">
+        <br>
+        <button id="enviar" onclick="enviar()" class="btn btn-primary">Enviar</button>
+    </div>
+<script src="Kwitterpage.js"></script>
+</body>
+</html>
